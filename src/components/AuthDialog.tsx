@@ -132,7 +132,7 @@ export function AuthDialog({ open, onOpenChange, onSuccess }: AuthDialogProps) {
           
           // Show appropriate success message
           if (emailResult.status === 'mock') {
-            toast.success("Added to waitlist! (Email in demo mode)");
+            toast.success("Added to waitlist!");
           } else if (emailResult.status === 'error') {
             toast.success("Added to waitlist! (Email failed to send)");
           } else {
