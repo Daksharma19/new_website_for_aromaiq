@@ -2,7 +2,7 @@ import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { Sparkles, Leaf, Home } from "lucide-react";
 import { motion } from "motion/react";
 import ayushImage from "figma:asset/b69920b738da061ebe15873ba39bb5df3b70d1c9.png";
-import dakshImage from "figma:asset/3a716ee1f7b3ef6e6b6f8a5588debb5fb9eee4d7.png";
+import dakshImage from "../assets/myImage.png";
 import scents from "../assets/scents.png";
 export function AboutSection() {
   const values = [
